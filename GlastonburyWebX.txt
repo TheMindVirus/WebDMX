@@ -1,0 +1,53 @@
+[Objective]
+Real Hardware Control Panel -> Virtual Audio-Visuals
+Glastonbury Festival Experience -> "WebX" Web Experience Across Multiple Devices Simultaneously
+
+[Useful Technologies]
+Ethernet/WiFi/5G - Real-Time Global Connectivity on any device
+UDP - User Datagram Protocol (Custom Packet Structure, Software/Data-Defined)
+HTTP - HyperText Transfer Protocol (Data Transfer Protocol understood by most Web-based Clients/Browsers)
+HTML/CSS/Javascript - Interpreted Language and Framework understood by most Web-based Clients/Browsers
+MPI - Message Passing Interface (Datacenter Standard Networking Protocol with Announcers and Listeners)
+OSC - OpenSoundControl (useful for turning tablets and touchscreens into sound control panels)
+//AJAX - Asynchronous Javascript And XML (HTTP automation after the web page has loaded)
+WebSocket - Custom Port-Based Communication Session Manager (and Firewall-related control)
+WebGL - Real-Time Graphics Engine (for both Rendering the Scene and Compositing the Visuals)
+HTML5 Canvas - 2D Graphics Context for the Web (can be made to run simple and very fast 3D on the CPU)
+//WebAR/VR/XR - Augmented/Virtual/Mixed Reality for the Web (currently under-developed)
+WebAudio - Real-Time Synthesis Engine (Spatial Audio Filter on top of Real-Time Audio Stream)
+WebAPI - Other Universal Cross Platform Interfaces (e.g. WebSerial RS232-Serial)
+//DMX512 - DeMultipleX-512-channels Lighting Control Standard (RS485-Serial)
+sACN - Streaming Architecture for Control Networks (new Socket-based Lighting Control Standard)
+USB - Universal Serial Bus (offers Plug&Play identification for easy installation of control surfaces)
+MIDI - Musical Instrument Device Interface (Universal Equipment Control Standard + WebMIDI)
+Arduino/Raspberry Pi - Embedded Control Platforms (useful for bridging different protocols together)
+Python - Interpreted Language useful for Game and Game Server Programming (pygame?)
+Blender/WavefrontOBJ - Creative 3D Suite (Simplest Specification of the Design and Animation of 3D Objects)
+
+// - Denotes Deprecated Technologies but may be bridged to current technologies for legacy compatibility
+
+[Notes]
+* Only send the entire world/scene once on reload (or when a manual refresh is triggered by the server)
+* Update only the attributes (inputs and outputs) of 3D Objects (e.g. Intensity/Red/Green/Blue/Pan/Tilt)
+* Avoid Hardcoding of values (and where possible automate hardcoded values so they become editable)
+* Avoid Overburdening the CPU with tasks that can be done on the GPU or precalculated in Memory
+* Isolate Crew Control Network from Audience Experience Network (maybe just by not using HTTP for Control)
+
+[Where Do I Start?]
+Creator: Start by using Blender or whichever 3D Suite of your choice to Make and Rig 3D Assets
+ - Examples of 3D Assets: Tent, Truss, Lighting Equipment, Audio Equipment, Screens, Miscellaneous
+
+Developer: Start by using Python or the Game Server language of your choice to Load and Automate 3D Rigs
+ - Use the Message Passing Interface to create a completely dynamic pipeline with Announcers and Listeners
+
+Operator: Start by connecting your sound/light/camera/robot programming desks to a control PC
+ - The data eventually has to come alive on the Game Server so use whichever protocol bridges are required
+
+Netrunner: Start by using WebGL or Unity Web Player in a HTML/CSS/Javascript web page (index.html)
+ - Combine the work of the Creator/Developer/Operator to form and deliver a seamless player experience
+
+[Current Task]
+Developer/Operator - Make a WebGL Game Server in Python and automate some 3D lights with a real MIDI Device
+- Implement a basic version of:
+MPI - Message Passing Interface (Datacenter Standard Networking Protocol with Announcers and Listeners)
+(Android has internals similar to this with Event Listeners and Event Handlers)
