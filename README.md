@@ -2,8 +2,8 @@
 Virtual Architectural Lighting Control System using Unity WebGL Player
 
 ## Use Cases
- * Virtual Events - Both VR and PC players can attend and watch the show in real-time \
- * Visualisation - Customisable Virtual Lighting to accompany any music or video \
+ * Virtual Events - Both VR and PC players can attend and watch the show in real-time
+ * Visualisation - Customisable Virtual Lighting to accompany any music or video
  * Simulation - To design, rig and test festival rigs before they're built for real
 
 More Info: https://github.com/themindvirus/WebDMX/blob/main/GlastonburyWebX.txt \
