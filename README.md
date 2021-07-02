@@ -7,6 +7,7 @@ Virtual Architectural Lighting Control System using Unity WebGL Player
  * Simulation - To design, rig and test festival rigs before they're built for real
 
 More Info: https://github.com/themindvirus/WebDMX/blob/main/GlastonburyWebX.txt
+Demo: https://themindvirus.github.io/WebDMX/server/
 
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/mainstage.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/crosslight.png)
