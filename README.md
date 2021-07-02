@@ -12,7 +12,7 @@ Demo: https://themindvirus.github.io/WebDMX/server/
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/mainstage.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/crosslight.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/unitymobile.jpg)
-![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/unityplayer.jpg)
+![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/unityplayer.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/blender.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/origami.png)
 ![GlastonburyWebX](https://github.com/themindvirus/WebDMX/blob/main/screenshots/wireframe.png)
