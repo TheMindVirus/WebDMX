@@ -3,10 +3,11 @@ import asyncio, pathlib, ssl, websockets
 
 async def LAMP(websocket, path):
     print(websocket)
+    #print(websocket.remote_address)
     data = await websocket.recv()
     print(f"< {data}")
     await websocket.send(f"{data})")
-    websocket.close()
+    #websocket.close()
 
 ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
 cert_pem = pathlib.Path(__file__).with_name("cert.pem")
