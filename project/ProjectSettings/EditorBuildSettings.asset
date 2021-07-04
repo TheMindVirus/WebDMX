@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GlastonburyMainStage.unity
     guid: 13cbd1a9a49e0c94691a023426dc459a
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 4b8e69b5bfab5d047b8a2471c41538a5,
+      type: 2}
